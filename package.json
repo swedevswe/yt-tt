@@ -2,7 +2,7 @@
     "name": "youtube-transcriber-client",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://swedevswe.github.io/yt-translate-transcribe",
+    "homepage": "https://swedevswe.github.io/yt-tt/",
     "dependencies": {
         "@paypal/react-paypal-js": "^8.3.0",
         "@tensorflow/tfjs": "^4.19.0",
