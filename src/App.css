@@ -1,0 +1,51 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Change from 50vh to 100vh */
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8); /* Add transparency */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input,
+button {
+  margin: 0 auto; /* Center horizontally */
+  padding: 10px;
+  font-size: 16px;
+  width: 100%; /* Take up full width */
+  max-width: 400px; /* Set a maximum width */
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 20px; /* Ensure it has a margin below */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add text shadow for better visibility */
+}
+
+h2 {
+  color: #555;
+  text-align: center;
+  max-width: 500px;
+  line-height: 1.5;
+}
+
+#paypal-button {
+  margin-top: 20px;
+}

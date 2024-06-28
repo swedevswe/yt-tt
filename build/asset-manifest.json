@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/yt-translate-transcribe/static/css/main.38a818dd.css",
+    "main.js": "/yt-translate-transcribe/static/js/main.771d8e6b.js",
+    "static/media/transcript-background.png": "/yt-translate-transcribe/static/media/transcript-background.dfe79833a31f2652170c.png",
+    "index.html": "/yt-translate-transcribe/index.html",
+    "main.38a818dd.css.map": "/yt-translate-transcribe/static/css/main.38a818dd.css.map",
+    "main.771d8e6b.js.map": "/yt-translate-transcribe/static/js/main.771d8e6b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38a818dd.css",
+    "static/js/main.771d8e6b.js"
+  ]
+}

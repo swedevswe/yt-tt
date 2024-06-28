@@ -1,0 +1,179 @@
+.TranscriptForm {
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.transcript-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.transcript-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.transcript-button:active {
+    background-color: #3e8e41;
+    transform: scale(1.02);
+}
+
+.go-back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #f44336;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.go-back-button:hover {
+    background-color: #e53935;
+    transform: scale(1.05);
+}
+
+.go-back-button:active {
+    background-color: #d32f2f;
+    transform: scale(1.02);
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #0070ba;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    animation: glow 1s infinite alternate;
+}
+
+.download-button:hover {
+    background-color: #005fa3;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #0070ba;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+form {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    text-align: center; /* Center the text in the input field */
+}
+
+label {
+    align-items: center;
+    gap: 10px;
+}
+
+h2 {
+    color: white;
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.payment-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.download-transcript {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background: url('/src/assets/images/transcript-background.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.background {
+    background: url('/src/assets/images/transcript-background.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh; /* Use viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transcript-form-container {
+    background-color: rgb(90, 156, 210);
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 8cap;
+  }
+
+
+button, input {
+    margin: 10px 0;
+}
+
+.download-message {
+    color: white;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 5px #0070ba;
+    }
+    100% {
+        box-shadow: 0 0 20px #0070ba;
+    }
+}
