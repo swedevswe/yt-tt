@@ -14,7 +14,7 @@ Technologies Used
     Frontend: React, JavaScript, HTML/CSS
     Backend: Node.js, Express.js
     APIs: YouTube Data API, PayPal API, LibreTranslate API
-    Deployment: GitHub Pages[], Render
+    Deployment: GitHub Pages[https://swedevswe.github.io/yt-tt/], Render
 
 Getting Started
 
