@@ -29,6 +29,8 @@ cd your-repository
 
 Install dependencies for frontend and backend:
 
+bash
+
 cd client
 npm install
 cd ../server
@@ -40,6 +42,8 @@ Set up environment variables:
     Add necessary environment variables (e.g., API keys).
 
 Start the frontend and backend servers:
+
+bash
 
     # In client directory
     npm start
