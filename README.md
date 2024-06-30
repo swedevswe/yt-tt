@@ -34,7 +34,7 @@ npm install
 Set up environment variables:
 
     Create a .env file in both client and server directories.
-    Add necessary environment variables (e.g., API keys).
+    Add necessary environment variables.
 
 Start the frontend and backend servers:
 
