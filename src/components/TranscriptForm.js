@@ -116,7 +116,7 @@ const TranscriptForm = () => {
 
         console.log('Sending form data with translate flag:', translate);
 
-        const response = await axios.post('/transcribe', formData, {
+        const response = await axios.post('https://backend-service-yswu.onrender.com/transcribe', formData, {
             headers: {
                 'Content-Type': 'multipart/form-data',
             },
