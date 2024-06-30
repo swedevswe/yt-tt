@@ -22,8 +22,7 @@ To run this project locally, follow these steps:
 
     Clone the repository:
 
-git clone [https://github.com/your-username/your-repository.git
-cd your-repository](https://github.com/swedevswe/yt-tt.git)
+git clone (https://github.com/swedevswe/yt-tt.git)
 
 Install dependencies for frontend and backend:
 
