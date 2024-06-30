@@ -102,7 +102,7 @@ const TranscriptForm = () => {
 
     const fetchAudioStream = async (videoId) => {
         try {
-            const response = await axios.get(`https://your-vercel-backend.vercel.app/api/get-audio-stream?videoId=${videoId}`, { responseType: 'arraybuffer' });
+            const response = await axios.get(`https://backend-service-yswu.onrender.com/transcribe/get-audio-stream?videoId=${videoId}`, { responseType: 'arraybuffer' });
             return response.data;
         } catch (error) {
             throw new Error('Error fetching audio stream');
@@ -116,7 +116,7 @@ const TranscriptForm = () => {
 
         console.log('Sending form data with translate flag:', translate);
 
-        const response = await axios.post('/api', formData, {
+        const response = await axios.post('/transcribe', formData, {
             headers: {
                 'Content-Type': 'multipart/form-data',
             },
@@ -160,7 +160,7 @@ const TranscriptForm = () => {
 
     const translateTranscript = async (text) => {
         try {
-            const response = await axios.post('https://your-vercel-backend.vercel.app/api/translate', { text, translate: 'true' }, {
+            const response = await axios.post('https://backend-service-yswu.onrender.com/transcribe/translate', { text, translate: 'true' }, {
                 headers: {
                     'Content-Type': 'application/json'
                 }
