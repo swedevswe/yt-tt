@@ -14,7 +14,7 @@ Technologies Used
     Frontend: React, JavaScript, HTML/CSS
     Backend: Node.js, Express.js
     APIs: YouTube Data API, PayPal API, LibreTranslate API
-    Deployment: GitHub Pages, Render
+    Deployment: GitHub Pages[], Render
 
 Getting Started
 
@@ -22,14 +22,10 @@ To run this project locally, follow these steps:
 
     Clone the repository:
 
-    bash
-
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+git clone [https://github.com/your-username/your-repository.git
+cd your-repository](https://github.com/swedevswe/yt-tt.git)
 
 Install dependencies for frontend and backend:
-
-bash
 
 cd client
 npm install
@@ -42,8 +38,6 @@ Set up environment variables:
     Add necessary environment variables (e.g., API keys).
 
 Start the frontend and backend servers:
-
-bash
 
     # In client directory
     npm start
