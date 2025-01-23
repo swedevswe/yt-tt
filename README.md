@@ -5,16 +5,14 @@ Features
 
     YouTube URL Input: Users can enter a YouTube video URL to transcribe its audio content.
     Transcription: Utilizes YouTube's API to fetch the audio stream of the video and transcribe it using a custom backend service.
-    Translation: Optionally translates the transcription to English using LibreTranslate API upon user request.
-    Payment Integration: Allows users to pay for translation services using PayPal API.
     Deployment: Frontend deployed on GitHub Pages and backend services dockerized and deployed on Render.
 
 Technologies Used
 
-    Frontend: React, JavaScript, HTML/CSS
-    Backend: Node.js, Express.js
-    APIs: YouTube Data API, PayPal API, LibreTranslate API
-    Deployment: GitHub Pages[https://swedevswe.github.io/yt-tt/], Render
+    Frontend: React, JavaScript, HTML/CSS.
+    Backend: Node.js, Express.js, Docker.
+    APIs: YouTube Data API, PayPal API, LibreTranslate API.
+    Deployment: GitHub Pages[https://swedevswe.github.io/yt-tt/], Render.
 
 Getting Started
 
